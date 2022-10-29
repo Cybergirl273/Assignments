@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration page</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  
+</head>
+<body>
+  <div class="wrapper">
+        <div class="title">
+          Sign Up
+        </div>
+        <div class="page">
+          <form type="post" action="login.html">
+              <div class="input_field">
+                <label>First Name</label> <br/>
+                <input type="text" class="input" required>
+              </div> 
+                <div class="input_field">
+                  <label>Last Name</label> 
+                  <input type="text" class="input" required>
+                </div> 
+                  <div class="input_field">
+                    <label>Phone Number</label>
+                    <input type="text" class="input" required>
+                  </div> 
+                    <div class="input_field">
+                      <label>Email Address</label>
+                      <input type="email" class="input" required>
+                    </div> 
+                      <div class="input_field">
+                        <label>Gender</label>
+                        <div class="custom_select">
+                          <select required>
+                            <option value="">select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select>
+                        </div>
+                      </div> 
+                      <div class="input_field">
+                        <label>Date of Birth</label> <br/>
+                        <input type="date" class="input" required>
+                      </div> 
+                            <div class="input_field">
+                              <label>favourite color</label> <br/>
+                              <input type="color" class="input" required>
+                            </div> 
+                            <br/>
+                      <div class="input_field terms">
+                          <input type="checkbox">
+                       <span class="ebele">By clicking the register button you agree to our
+                          <a href="#"> terms and conditions </a> and <a href="#">Policy and privacy</a></span>
+                      </div>
+                      <div class="input_field">
+                        <input type="submit" value="Register" class="btn">
+                      </div> 
+                      <br/>
+                      <p class="ebele">Already have an account? <a href="login.html">Login here</a></p>
+                    </form>
+        </div>
+  </div>
+</body>
+</html>
